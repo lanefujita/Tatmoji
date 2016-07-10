@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9C7F39A1D31F6F700E8BFB3 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D9C7F3991D31F6F700E8BFB3 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D9C7F39E1D31F6F700E8BFB3 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D9C7F39D1D31F6F700E8BFB3 /* Stickers.xcstickers */; };
+		D9C7F39F1D31F6F700E8BFB3 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D9C7F39D1D31F6F700E8BFB3 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9C7F39B1D31F6F700E8BFB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C7F38F1D31F6F700E8BFB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C7F3981D31F6F700E8BFB3;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9C7F3A51D31F6F700E8BFB3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D9C7F39A1D31F6F700E8BFB3 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D9C7F3951D31F6F700E8BFB3 /* Tatmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tatmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C7F3991D31F6F700E8BFB3 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C7F39D1D31F6F700E8BFB3 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D9C7F38E1D31F6F700E8BFB3 = {
+			isa = PBXGroup;
+			children = (
+				D9C7F39D1D31F6F700E8BFB3 /* Stickers.xcstickers */,
+				D9C7F3961D31F6F700E8BFB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C7F3961D31F6F700E8BFB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C7F3951D31F6F700E8BFB3 /* Tatmoji.app */,
+				D9C7F3991D31F6F700E8BFB3 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9C7F3941D31F6F700E8BFB3 /* Tatmoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C7F3A61D31F6F700E8BFB3 /* Build configuration list for PBXNativeTarget "Tatmoji" */;
+			buildPhases = (
+				D9C7F3931D31F6F700E8BFB3 /* Resources */,
+				D9C7F3A51D31F6F700E8BFB3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C7F39C1D31F6F700E8BFB3 /* PBXTargetDependency */,
+			);
+			name = Tatmoji;
+			productName = Tatmoji;
+			productReference = D9C7F3951D31F6F700E8BFB3 /* Tatmoji.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		D9C7F3981D31F6F700E8BFB3 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C7F3A21D31F6F700E8BFB3 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				D9C7F3971D31F6F700E8BFB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = D9C7F3991D31F6F700E8BFB3 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C7F38F1D31F6F700E8BFB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SickStickers;
+				TargetAttributes = {
+					D9C7F3941D31F6F700E8BFB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D9C7F3981D31F6F700E8BFB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9C7F3921D31F6F700E8BFB3 /* Build configuration list for PBXProject "Tatmoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9C7F38E1D31F6F700E8BFB3;
+			productRefGroup = D9C7F3961D31F6F700E8BFB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C7F3941D31F6F700E8BFB3 /* Tatmoji */,
+				D9C7F3981D31F6F700E8BFB3 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9C7F3931D31F6F700E8BFB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C7F39F1D31F6F700E8BFB3 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C7F3971D31F6F700E8BFB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C7F39E1D31F6F700E8BFB3 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9C7F39C1D31F6F700E8BFB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C7F3981D31F6F700E8BFB3 /* StickerPackExtension */;
+			targetProxy = D9C7F39B1D31F6F700E8BFB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9C7F3A01D31F6F700E8BFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9C7F3A11D31F6F700E8BFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9C7F3A31D31F6F700E8BFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = SickStickers.Tatmoji.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9C7F3A41D31F6F700E8BFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = SickStickers.Tatmoji.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9C7F3A71D31F6F700E8BFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = Tatmoji/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = SickStickers.Tatmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9C7F3A81D31F6F700E8BFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = Tatmoji/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = SickStickers.Tatmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9C7F3921D31F6F700E8BFB3 /* Build configuration list for PBXProject "Tatmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C7F3A01D31F6F700E8BFB3 /* Debug */,
+				D9C7F3A11D31F6F700E8BFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C7F3A21D31F6F700E8BFB3 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C7F3A31D31F6F700E8BFB3 /* Debug */,
+				D9C7F3A41D31F6F700E8BFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9C7F3A61D31F6F700E8BFB3 /* Build configuration list for PBXNativeTarget "Tatmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C7F3A71D31F6F700E8BFB3 /* Debug */,
+				D9C7F3A81D31F6F700E8BFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9C7F38F1D31F6F700E8BFB3 /* Project object */;
+}
